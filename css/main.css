@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#header {
+    height: 45px;
+    background-color: #00b38a;
+    color: #ffffff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+}
+
+.top div:first-child a {
+    color: #555555;
+    font-size: 14px;
+}
+
+.top div:last-child {
+    width: 84px;
+    height: 30px;
+    background-color: #f5f5f5;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 6px;
+    border-radius: 15px;
+}
+
+.top div:last-child a {
+    color: #00b9b7;
+}
+
+#list li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90px;
+    border-top: 1px solid #e8e8e8;
+}
+
+#list li div:first-child {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px 0 14px;
+}
+
+#list div>img {
+    display: block;
+}
+
+#list li .info {
+    flex: 1;
+}
+
+#list .info h2 {
+    font-size: 16px;
+    color: #333333;
+}
+
+#list .info p {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+}
+
+#list .info p:first-child {
+    font-size: 14px;
+    color: #333333;
+}
+
+#list li p:last-child {
+    font-size: 12px;
+    color: #888888;
+}
+
+#list .info span:last-child {
+    margin-right: 14px;
+    color: #52b38a;
+}
+
+#footer {
+    position: fixed;
+    display: flex;
+    height: 45px;
+    width: 100%;
+    bottom: 0;
+    z-index: 999;
+    line-height: 45px;
+    border-top: #e8e8e8;
+    background-color: #f6f6f6;
+    color: #d9d6cc;
+}
+
+#footer section {
+    float: left;
+    flex: 1;
+    text-align: center;
+}
+
+#footer section.active {
+    background-color: #e7f3f0;
+    color: #74d3bd;
+}
+
+#footer .iconuser {
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+}
+
+#more {
+    height: 50px;
+    border-top: 1px solid #e8e8e8;
+    background-color: #fafafa;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+#more a {
+    color: #333333;
+}
+
+#bottom {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+
+#bottom p {
+    margin: 12px 0;
+}
+
+#bottom a {
+    color: #333333;
+    font-size: 12px;
+    ;
+}
+
+#bottom .active {
+    color: #999999;
+}
